@@ -1,0 +1,38 @@
+body {
+  background-color: bisque;
+}
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 235px;
+  margin: auto;
+}
+
+#gameContainer {
+  text-align: center;
+}
+
+#restartButton {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 238, 88);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#restartButton:hover {
+  background-color: darkred;
+  transition: 0.5s ease-in;
+}
